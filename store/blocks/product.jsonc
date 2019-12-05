@@ -24,7 +24,8 @@
             "product-name",
             "product-identifier.product",
             "product-price",
-            "buy-button"
+            "buy-button",
+            "flex-layout.row"
 
         ],
         "props": {
@@ -41,8 +42,7 @@
     "flex-layout.row#qty-sku": {
         "children": [
           "sku-selector",
-          "product-quantity",
-          "flex-layout.row"
+          "product-quantity"
         ]
     }
 }
