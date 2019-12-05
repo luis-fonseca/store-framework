@@ -50,10 +50,19 @@
         "children": [
           "product-images",
           "product-brand"
-        ],
+        ]
+    },
+    "product-brand": {
         "props": {
             "height": 30,
             "displayMode": "logo"
+        }
+    },
+    "sku-selector": {
+        "props": {
+            "InitialSelection": "empty",
+            "showValueNameForImageVariation": true,
+            "showVariationsErrorMessage": true
         }
     }
 }
